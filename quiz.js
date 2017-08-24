@@ -30,7 +30,7 @@ math(6,4,9);
 //
 // let array = ['here ','is ','my ','string.'];
 function toString(array) {
-let string = array.join();
+let string = array.join('');
 console.log(string);
 }
 toString(['here ','is ','my ','string.']);
