@@ -53,7 +53,6 @@ callme2();
 
 function reverse(word) {
   word = word.split('').reverse().join('');
-
   console.log(word);
 }
 reverse('Reverse Me');
@@ -66,6 +65,5 @@ function sleep() {
   setTimeout(function() {
     console.log('after sleep "loop"')
   }, 2000)
-
 }
 sleep();
