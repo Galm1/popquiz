@@ -65,8 +65,9 @@ callme2();
 
 
 function reverse(word) {
-let blah = word.split();
-console.log(blah)
+  word = word.split('').reverse().join('');
+
+  console.log(word);
 }
 reverse('Reverse Me');
 
